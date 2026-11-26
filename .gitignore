@@ -1,0 +1,35 @@
+# Python & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+*.sqlite3
+
+# Virtual Environments
+venv/
+.venv/
+ENV/
+env/
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Production Build Output
+frontend/dist/
+dist/
+
+# Dataset - Kept local (2,500+ images) to prevent repo bloat
+dataset/
+
+# Environment Variables & Secrets
+.env
+.env*.local
+*.env
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
